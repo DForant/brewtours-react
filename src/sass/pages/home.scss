@@ -69,11 +69,6 @@
     box-shadow: 0 1.5rem 4rem rgba($color-black, .20);
     
     @include respond(tab-land){
-        // background-image: linear-gradient(105deg,
-        //         rgba($color-white, .9) 0%,
-        //         rgba($color-white, .9) 65%,
-        //         transparent 65%),
-        //     url(../img/beer-7.jpg);
        background-size: cover;
     }
     

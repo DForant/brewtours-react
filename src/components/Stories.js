@@ -10,34 +10,34 @@ import person2Large from '../img/person2-large.jpg'
 
 const Stories = () => {
   return (
-    <section class="section-stories">
-    <div class="bg-video">
-        <video class="bg-video__content" autoplay muted loop>
+    <section className="section-stories">
+    <div className="bg-video">
+        <video className="bg-video__content" autoplay muted loop>
             <source src={videoMp4} type="video/mp4"/>
             <source src={videoWebm} type="video/webm"/>
             Your browser is not Supported!
         </video>
     </div>
-    <div class="center-text margin-bottom-big">
-        <h2 class="heading-secondary">
+    <div className="center-text margin-bottom-big">
+        <h2 className="heading-secondary">
             What people are saying
         </h2>
     </div>
     
-    <div class="row">
-        <div class="story">
-            <figure class="story__shape">
+    <div className="row">
+        <div className="story">
+            <figure className="story__shape">
                 <img srcset={`${person1} 600w, ${person1Large} 2000w`}
                      sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
                     src={person1} 
                     alt="Person at a table" 
-                    class="story__img" />
-                <figcaption class="story__caption story__caption--review-1">
+                    className="story__img" />
+                <figcaption className="story__caption story__caption--review-1">
                     Mary Smith
                 </figcaption>                            
             </figure>
-            <div class="story__text">
-                <h3 class="heading-tertiary margin-bottom-small story__heading">
+            <div className="story__text">
+                <h3 className="heading-tertiary margin-bottom-small story__heading">
                     I have a new appreciation for Craft Beer
                 </h3>
                 <p>
@@ -47,21 +47,21 @@ const Stories = () => {
         </div>
     </div>
 
-    <div class="row">
-        <div class="story">
-            <figure class="story__shape">
+    <div className="row">
+        <div className="story">
+            <figure className="story__shape">
                 <img srcset={`${person2} 600w, ${person2Large} 2000w`}
                      sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
                     src={person2} 
                     alt="Person at a table" 
-                    class="story__img" />
-                <figcaption class="story__caption story__caption--review-2">
+                    className="story__img" />
+                <figcaption className="story__caption story__caption--review-2">
                     Dwayne Philips
                 </figcaption>
                 
             </figure>
-            <div class="story__text">
-                <h3 class="heading-tertiary margin-bottom-small story__heading">
+            <div className="story__text">
+                <h3 className="heading-tertiary margin-bottom-small story__heading">
                     What a great birthday present from my wife 
                 </h3>
                 <p>
@@ -71,8 +71,8 @@ const Stories = () => {
         </div>
     </div>
     
-    <div class="center-text margin-top-huge">
-        <a href="reviews.php" class="btn btn--brown">See all reviews</a>
+    <div className="center-text margin-top-huge">
+        <a href="reviews.php" className="btn btn--brown">See all reviews</a>
     </div>
     </section>    
   )
