@@ -5,6 +5,7 @@ import Features from './components/Features'
 import Tours from './components/Tours'
 import Stories from './components/Stories'
 import Book from './components/Book'
+import Footer from './components/Footer'
 
 function App(){
     return (
@@ -18,6 +19,7 @@ function App(){
                 <Stories/>
                 <Book/>
             </main>
+            <Footer/>
         </>
     )
 }
