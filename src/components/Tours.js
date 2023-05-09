@@ -1,5 +1,11 @@
 import React from 'react'
 
+/* Image Imports */
+import card1 from '../img/card1.jpg'
+import card2 from '../img/card2.jpg'
+import card3 from '../img/card3.jpg'
+    
+
 const Tours = () => {
   return (
     <section className="section-tours">
@@ -13,7 +19,9 @@ const Tours = () => {
             <div className="col-1-3">
                 <div className="card">
                     <div className="card__side card__side--front">
-                        <div className="card__picture card__picture--1">
+                        <div className="card__picture card__picture--1"
+                            style={{backgroundImage: `url(${card1})`}}
+                        >
                             &nbsp;
                         </div>
                         <div className="card__heading">
@@ -42,7 +50,9 @@ const Tours = () => {
             <div className="col-1-3">
                 <div className="card">
                     <div className="card__side card__side--front">
-                        <div className="card__picture card__picture--2">
+                        <div className="card__picture card__picture--2"
+                            style={{backgroundImage: `url(${card2})`}}
+                        >
                             &nbsp;
                         </div>
                         <div className="card__heading">
@@ -71,7 +81,9 @@ const Tours = () => {
             <div className="col-1-3">
                 <div className="card">
                     <div className="card__side card__side--front">
-                        <div className="card__picture card__picture--3">
+                        <div className="card__picture card__picture--3"
+                            style={{backgroundImage: `url(${card3})`}}
+                        >
                             &nbsp;
                         </div>
                         <div className="card__heading">

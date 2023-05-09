@@ -5,7 +5,6 @@
     height: 52rem;
     
     &__side{
-        background-color: orangered;
         font-size: 2rem;
         height: 52rem;
         transition: all .8s ease;
@@ -68,77 +67,11 @@
             background-blend-mode: screen;
         }
         
-        &--1{
-            // background-image: linear-gradient(to right bottom,
-            //     rgba($color-secondary-light, 0.8),
-            //     rgba($color-secondary-dark, 0.8)),
-            //     url(../img/beer-4.jpg); 
-            
-            @supports (background-blend-mode: screen){
-                // background-image: linear-gradient(to right bottom,
-                //     $color-secondary-light,
-                //     $color-secondary-dark),
-                //     url(../img/beer-4.jpg); 
-            }
-           
-           @media(min-resolution: 192dpi) and (min-width: 37.5em),
-           (min-width: 125em){
-                // background-image: linear-gradient(to right bottom,
-                //     $color-secondary-light,
-                //     $color-secondary-dark),
-                //     url(../img/beer-4-large.jpg); 
-               
-            }
-           
-        }
-        
-        &--2{
-            // background-image: linear-gradient(to right bottom,
-            //     rgba($color-primary-light, 0.8),
-            //     rgba($color-primary-dark, 0.8)),
-            //     url(../img/beer-5.jpg);
-            
-            @supports(background-blend-mode: screen){
-            // background-image: linear-gradient(to right bottom,
-            //     $color-primary-light,
-            //     $color-primary-dark),
-            //     url(../img/beer-5.jpg);
-            }
-
-           @media(min-resolution: 192dpi) and (min-width: 37.5em),
-           (min-width: 125em){
-                // background-image: linear-gradient(to right bottom,
-                //     $color-primary-light,
-                //     $color-primary-dark),
-                //     url(../img/beer-5-large.jpg); 
-               
-            }
-            
-            
-        }
-        
         &--3{
             // background-image: linear-gradient(to right bottom,
             //     rgba($color-tertiary-light, 0.8),
             //     rgba($color-tertiary-dark, 0.8)),
             //     url(../img/beer-6.jpg);
-            
-            @supports(background-blend-mode: screen){
-                // background-image: linear-gradient(to right bottom,
-                //     $color-tertiary-light,
-                //     $color-tertiary-dark),
-                //     url(../img/beer-6.jpg);
-            }
-
-           @media(min-resolution: 192dpi) and (min-width: 37.5em),
-           (min-width: 125em){
-                // background-image: linear-gradient(to right bottom,
-                //     $color-tertiary-light,
-                //     $color-tertiary-dark),
-                //     url(../img/beer-6-large.jpg); 
-               
-            }
-            
         }
     }
     
@@ -172,21 +105,21 @@
         box-decoration-break: clone;
         
         &--1{
-            // background-image: linear-gradient(to right bottom,
-            //     rgba($color-secondary-light, .85),
-            //     rgba($color-secondary-dark, .85));
+            background-image: linear-gradient(to right bottom,
+                rgba($color-secondary-light, .85),
+                rgba($color-secondary-dark, .85));
         }
         
         &--2{
-            // background-image: linear-gradient(to right bottom,
-            //     rgba($color-primary-light, .85),
-            //     rgba($color-primary-dark, .85));
+            background-image: linear-gradient(to right bottom,
+                rgba($color-primary-light, .85),
+                rgba($color-primary-dark, .85));
         }
         
         &--3{
-            // background-image: linear-gradient(to right bottom,
-            //     rgba($color-tertiary-light, .85),
-            //     rgba($color-tertiary-dark, .85));
+            background-image: linear-gradient(to right bottom,
+                rgba($color-tertiary-light, .85),
+                rgba($color-tertiary-dark, .85));
         }
     }
     
